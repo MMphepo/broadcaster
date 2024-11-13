@@ -36,7 +36,7 @@ def start_advertising():
     payload = bytearray()
     
     # Add device name
-    name = 'TestBLE'
+    name = '7794dda5-80ef-462e-81de-ba6915e56100'
     payload.extend(struct.pack('BB', len(name) + 1, 0x09))
     payload.extend(name.encode())
     
